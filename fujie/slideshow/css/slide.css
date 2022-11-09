@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+}
+
+.wrap{
+    width: 502px;
+    height: 683px;
+    border: solid 1px black;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.slideItem{
+
+    transition: .3s ease-in-out;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.slideItem:first-child{
+    opacity: 1;
+}
+
