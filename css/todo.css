@@ -1,0 +1,49 @@
+header > h1{
+  font-size: large;
+  text-align: center;
+  padding: 20px;
+}
+
+.In{
+  display: flex;
+  justify-content: center;
+}
+
+#txtIn{
+  width: 100px;
+  height: 30px;
+  border: solid 1px black;
+  margin: 0 10px;
+}
+
+button{
+  border: solid 1px black;
+  padding: 0 5px;
+}
+
+
+
+
+#lists{
+  width: 100vw;
+  height: calc( 100vh - 30px );
+}
+
+/* #lists::before{
+  display: flex;
+  justify-content: center;
+} */
+
+#list{
+  width: 300px;
+  height: auto;
+  padding: 10px;
+  border: solid 2px gray;
+  text-align: center; 
+  margin: 10px auto
+}
+
+/* #list::before{
+  display: flex;
+  align-items: center;
+} */

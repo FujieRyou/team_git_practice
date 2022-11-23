@@ -1,0 +1,35 @@
+body{
+  width: 100vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header{
+  width: 100vw;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+.item,.itemIn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  height: 60px;
+  margin: 10px auto;
+  border: solid 3px gray;
+  background-color: rgb(239, 239, 239);
+  text-align: center;
+  overflow: hidden;
+  transition: .5s;
+}
+
+/* .itemIn{
+  display: none;
+} */
+
+.hidden{
+  height: 0px;
+  border: none;
+}
